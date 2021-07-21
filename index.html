@@ -7,7 +7,7 @@
     color: black;
     text-decoration: NONE;
     font-size: 200%;
-   
+    
 
 
 
@@ -33,23 +33,26 @@
   
 .show {display: block;}
 img{
-  width:120%;
+  width:85%;
    height:90%;
    
    
    }
 </style>
 </head>
-<body STYLE="margin-top:60px;">
+<body STYLE="margin-top:60px;"  >
+  <div id="body" >
+  <button class="zoomin" onclick="zoomin()" style="position: fixed; padding:1%; font-size: 150%; background-color: rgb(0, 0, 189); color: white; margin-top: 80px; border-radius: 20%;">+</button><br><br><br><br>
+  <button class="zoomin" onclick="zoomout()" style="position: fixed; font-size: 150%;   padding:1.4%; background-color: rgb(0, 0, 189);color: white; margin-top: 80px; border-radius: 20%;">-</button>
 
 
 <div class="dropdown">
   
   <div id="myDropdown" class="dropdown-content">
     <center>
-    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()" onclick="dunction()">
     <B>
-   <a href="#about"><img src="0001.jpg"><p>Ganganagar Master plan</p></a>
+   
     <a href="#about"><img src="ri_1.jpeg"><p>Adarsh colony</p></a>
     <a href="#about"><img src="ri_2.jpeg"><p>Adarsh colony</p></a>
     <a href="#about"><img src="ri_3.jpeg" ><p>advocate colony </p></a>
@@ -257,10 +260,32 @@ img{
   </div>
 
 </div>
+</div>
+</body>
+<script>
+  function zoomin(){
+        var myImg = document.getElementById("body");
+        var currWidth = myImg.clientWidth;
+        if(currWidth == 2500) return false;
+         else{
+            myImg.style.width = (currWidth + 100) + "px";
+        } 
+    }
+    function zoomout(){
+        var myImg = document.getElementById("body");
+        var currWidth = myImg.clientWidth;
+        if(currWidth == 100) return false;
+		 else{
+            myImg.style.width = (currWidth - 100) + "px";
+        }
+    }
+</script>
+
 
 <script>
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
+
 
 function filterFunction() {
   var input, filter, ul, li, a, i;
@@ -276,6 +301,10 @@ function filterFunction() {
       a[i].style.display = "none";
     }
   }
+}
+function dunction() {
+
+  
 }
 </script>
 
