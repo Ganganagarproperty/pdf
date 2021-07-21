@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  a {
+    color: black;
+    text-decoration: NONE;
+    font-size: 200%;
+    font-family: cursive;
+
+
+
+  }
+
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  border-radius: 1%;
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 1%;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+  
+.show {display: block;}
+img{
+  width:85%;
+   height:90%;
+   
+   
+   }
+</style>
+</head>
+<body STYLE="margin-top:60px;">
+
+
+<div class="dropdown">
+  
+  <div id="myDropdown" class="dropdown-content">
+    <center>
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <B>
+   
+    <a href="#about"><img src="ri_1.jpeg"><p>Adarsh colony</p></a>
+    <a href="#about"><img src="ri_2.jpeg"><p>Adarsh colony</p></a>
+    <a href="#about"><img src="ri_3.jpeg" ><p>advocate colony </p></a>
+    <a href="#about"><img src="ri_4.jpeg"><p>Aggarsain Nagar S.NO. 3</p></a>
+    <a href="#about"><img src="ri_5.jpeg"><p>Aggarsain Nagar S.NO. 3</p></a>
+    <a href="#about"><img src="ri_6.jpeg"><p>Aggarsain Nagar 2ND</p></a>
+    <a href="#about"><img src="ri_7.jpeg"><p>AGGARWAL COLONY</p></a>
+    <a href="#about"><img src="ri_8.jpeg"><p>AMBA VIHAR</p></a>
+    <a href="#about"><img src="ri_9.jpeg"><p>AMBEY VALLY</p></a>
+    <a href="#about"><img src="ri_10.jpeg"><p>AMBICA CITY</p></a>
+    <a href="#about"><img src="ri_11.jpeg"><p>AMBIKA ENCLAVE-2</p></a>
+    <a href="#about"><img src="ri_12.jpeg"><p>AMBIKA ENCLAVE</p></a>
+    <a href="#about"><img src="ri_13.jpeg"><p>AMRIT VIHAR</p></a>
+    <a href="#about"><img src="ri_14.jpeg"><p>ANAND VIHAR COLONY</p></a>
+    <a href="#about"><img src="ri_15.jpeg"><p>ANAND VIHAR RESIDENCY</p></a>
+    <a href="#about"><img src="ri_16.jpeg"><p>ANJINI VIHAR</p></a>
+    <a href="#about"><img src="ri_17.jpeg"><p>ANUPAM VIHAR</p></a>
+    <a href="#about"><img src="ri_18.jpeg"><p>AULAKH NAGAR</p></a>
+    <a href="#about"><img src="ri_19jpeg"><p>BABA RAMDEV COLONY</p></a>
+    <a href="#about"><img src="ri_20.jpeg"><p>BADA BAZAR</p></a>
+    <a href="#about"><img src="ri_21.jpeg"><p>BAJRANG VIHAR</p></a>
+    <a href="#about"><img src="ri_22.jpeg"><p>BAJRANG VIHAR</p></a>
+    <a href="#about"><img src="ri_23.jpeg"><p>BAJRANG VIHAR</p></a>
+    <a href="#about"><img src="ri_24.jpeg"><p>BALAJI DHAAM</p></a>
+    <a href="#about"><img src="ri_25.jpeg"><p>BALAJI ENCLAVE</p></a>
+    <a href="#about"><img src="ri_26.jpeg"><p>BALAJI NAGRI</p></a>
+    <a href="#about"><img src="ri_27.jpeg"><p>BALAJI VIHAR</p></a>
+    <a href="#about"><img src="ri_28.jpeg"><p>BAUEET AVENUE</p></a>
+    <a href="#about"><img src="ri_29.jpeg"><p>BAPU NAGAR</p></a>
+    <a href="#about"><img src="ri_30.jpeg"><p>BASANT KUNG EXTANTION</p></a>
+    <a href="#about"><img src="ri_31.jpeg"><p>BHOLE SHANKAR COLONY</p></a>
+    <a href="#about"><img src="ri_32.jpeg"><p>BIRBAL NAGAR</p></a>
+    <a href="#about"><img src="ri_33.jpeg"><p>CHAITELI INCLAVE</p></a>
+    <a href="#about"><img src="ri_34.jpeg"><p>DAAL COLONY-1</p></a>
+    <a href="#about"><img src="ri_35.jpeg"><p>DAAL NAGAR-2<SUP>nd</SUP></p></a>
+    <a href="#about"><img src="ri_36.jpeg"><p>DARSHAN NAGAR</p></a>
+    <a href="#about"><img src="ri_37.jpeg"><p>DASHMESH ENCALVE</p></a>
+    <a href="#about"><img src="ri_38.jpeg"><p>DIAMOND CITY</p></a>
+    <a href="#about"><img src="ri_39.jpeg"><p>DIKSHA ENCLAVE</p></a>
+    <a href="#about"><img src="ri_40.jpeg"><p>DINESH KII PATTI</p></a>
+    <a href="#about"><img src="ri_41.jpeg"><p>DOCTOR COLONY</p></a>
+    <a href="#about"><img src="ri_42.jpeg"><p>DREAM CITY</p></a>
+    <a href="#about"><img src="ri_43.jpeg"><p>DREAM'S VATIKA</p></a>
+    <a href="#about"><img src="ri_44.jpeg"><p>DURGA ENCLAVE</p></a>
+    <a href="#about"><img src="ri_45.jpeg"><p>DURGA VIHAR</p></a>
+    <a href="#about"><img src="ri_46.jpeg"><p>FRIENDS VIHAR - 1</p></a>
+    <a href="#about"><img src="ri_47.jpeg"><p>FRIENDS VIHAR<SUB>PHASE 2</SUB></p></a>
+    <a href="#about"><img src="ri_48.jpeg"><p>GJANAND VIHAR</p></a>
+    <a href="#about"><img src="ri_49.jpeg"><p>GANESH CITY</p></a>
+    <a href="#about"><img src="ri_50.jpeg"><p>GANESH CITY 2</p></a>
+    <a href="#about"><img src="ri_51.jpeg"><p>GANESH VIHAR</p></a>
+    <a href="#about"><img src="ri_52.jpeg"><p>GANESH VIHAR<sub>phase-3rd</sub></p></a>
+    <a href="#about"><img src="ri_53.jpeg"><p>GANESH VIHAR<SUB>EXT</SUB></p></a>
+    <a href="#about"><img src="ri_54.jpeg"><p>GANGA COLONY</p></a>
+    <a href="#about"><img src="ri_55.jpeg"><p>GANPATI NAGAR - 3</p></a>
+    <a href="#about"><img src="ri_56.jpeg"><p>GANPATI NAGAR</p></a>
+    <a href="#about"><img src="ri_57.jpeg"><p>GANPATI NAGAR</p></a>
+    <a href="#about"><img src="ri_58.jpeg"><p>GANPATI NAGAR - 2</p></a>
+    <a href="#about"><img src="ri_59.jpeg"><p>GANPATI VIHAR</p></a>
+    <a href="#about"><img src="ri_60.jpeg"><p>GOKUL DHAM</p></a>
+    <a href="#about"><img src="ri_61.jpeg"><p>GOVIND NAGAR</p></a>
+    <a href="#about"><img src="ri_62.jpeg"><p>GOVIND NAGAR - 2</p></a>
+    <a href="#about"><img src="ri_63.jpeg"><p>GOVIND VIHAR</p></a>
+    <a href="#about"><img src="ri_64.jpeg"><p>GREEN CITY</p></a>
+    <a href="#about"><img src="ri_65.jpeg"><p>GREEN ENCLAVE</p></a>
+    <a href="#about"><img src="ri_66.jpeg"><p>GREEN ESTATE </p></a>
+    <a href="#about"><img src="ri_67.jpeg"><p>GREEN VALLEY</p></a>
+    <a href="#about"><img src="ri_68.jpeg"><p>GULABI BAAG</p></a>
+    <a href="#about"><img src="ri_69.jpeg"><p>GURU NANAK VIHAR</p></a>
+    <a href="#about"><img src="ri_70.jpeg"><p>HOME LAND</p></a>
+    <a href="#about"><img src="ri_71.jpeg"><p>HANUMAN COLONY</p></a>
+    <a href="#about"><img src="ri_72.jpeg"><p>HANUMAN NAGAR</p></a>
+    <a href="#about"><img src="ri_73.jpeg"><p>HARDEV NAGAR</p></a>
+    <a href="#about"><img src="ri_74.jpeg"><p>HARMAN VILLAS</p></a>
+    <a href="#about"><img src="ri_75.jpeg"><p>HOME LAND 2</p></a>
+    <a href="#about"><img src="ri_76.jpeg"><p>J.B.VIHAR</p></a>
+    <a href="#about"><img src="ri_77.jpeg"><p>JAGDAMBA VIHAR</p></a>
+    <a href="#about"><img src="ri_78.jpeg"><p>JAHAN ENCLAVES</p></a>
+    <a href="#about"><img src="ri_79.jpeg"><p>JANKI NAGAR</p></a>
+    <a href="#about"><img src="ri_80.jpeg"><p>JINDAL COLONY</p></a>
+    <a href="#about"><img src="ri_81.jpeg"><p>JINDAL COLONY</p></a>
+    <a href="#about"><img src="ri_82.jpeg"><p>JMD ENCLAVES</p></a>
+    <a href="#about"><img src="ri_83.jpeg"><p>JOTI NAGAR</p></a>
+    <a href="#about"><img src="ri_84.jpeg"><p>JOTI NAGAR</p></a>
+    <a href="#about"><img src="ri_85.jpeg"><p>KAILASH PURI</p></a>
+    <a href="#about"><img src="ri_86.jpeg"><p>KAILASH NAGAR-2ND</p></a>
+    <a href="#about"><img src="ri_87.jpeg"><p>KAILASH NAGAR</p></a>
+    <a href="#about"><img src="ri_88.jpeg"><p>KRISHI UPAJ MANDI SMITI YARD</p></a>
+    <a href="#about"><img src="ri_89.jpeg"><p>KIRTI COLONY</p></a>
+    <a href="#about"><img src="ri_90.jpeg"><p></p></a>
+    <a href="#about"><img src="ri_91.jpeg"><p>KUNG VIHAR-2</p></a>
+    <a href="#about"><img src="ri_92.jpeg"><p>LIC COLONY</p></a>
+    <a href="#about"><img src="ri_93.jpeg"><p>MADHUVAN COLONY</p></a>
+    <a href="#about"><img src="ri_94.jpeg"><p>MAHADEV NAGAR.IND</p></a>
+    <a href="#about"><img src="ri_95.jpeg"><p>MAHADEV NAGAR</p></a>
+    <a href="#about"><img src="ri_96.jpeg"><p>MAHAVIR INTERNATIONAL COLONY</p></a>
+    <a href="#about"><img src="ri_97.jpeg"><p>MAHESH NAGAR</p></a>
+    <a href="#about"><img src="ri_98.jpeg"><p>MANGAT COLONY</p></a>
+    <a href="#about"><img src="ri_99.jpeg"><p>MANSAROVAR</p></a>
+    <a href="#about"><img src="ri_100.jpeg"><p>MEEL COLONY</p></a>
+    <a href="#about"><img src="ri_101.jpeg"><p>METRO CITY</p></a>
+    <a href="#about"><img src="ri_102.jpeg"><p>MURARI NAGAR</p></a>
+    <a href="#about"><img src="ri_103.jpeg"><p> MURARI NAGAR</p></a>
+    <a href="#about"><img src="ri_104.jpeg" ><p> NANAK COLONY </p></a>
+    <a href="#about"><img src="ri_105.jpeg"><p> NAND VIHAR</p></a>
+    <a href="#about"><img src="ri_106.jpeg"><p>NEELKANTH COLONY</p></a>
+    <a href="#about"><img src="ri_107.jpeg"><p> NEELKANTH ENCLAVE </p></a>
+    <a href="#about"><img src="ri_108.jpeg"><p> NEELKANTH FARM HOUSE</p></a>
+    <a href="#about"><img src="ri_109.jpeg"><p> NEHRA NAGAR</p></a>
+    <a href="#about"><img src="ri_110.jpeg"><p>NEHRA NAGAR</p></a>
+    <a href="#about"><img src="ri_111.jpeg"><p> NEHRU NAGAR 1  <SUp>st</SUp></p></a>
+    <a href="#about"><img src="ri_112.jpeg"><p> NEHRU NAGAR 2  <SUp>nd</SUp></p></a>
+    <a href="#about"><img src="ri_113.jpeg"><p>NEW GANGA CITY</p></a>
+    <a href="#about"><img src="ri_114.jpeg"><p>NEW GANDHI NAGAR</p></a>
+    <a href="#about"><img src="ri_115.jpeg"><p>NEW LOHA,PLYWOOD,HARDWARE & SANITARY MARKET</p></a>
+    <a href="#about"><img src="ri_116.jpeg"><p>OFFICER COLONY</p></a>
+    <a href="#about"><img src="ri_117.jpeg"><p>PANCHVATI</p></a>
+    <a href="#about"><img src="ri_118.jpeg"><p>PRAKASH NAGAR</p></a>
+    <a href="#about"><img src="ri_119.jpeg"><p>PARTAP NAGAR</p></a>
+    <a href="#about"><img src="ri_120.jpeg"><p>PARVATI NAGAR</p></a>
+    <a href="#about"><img src="ri_121.jpeg"><p>PAWAN PURI 2ND</p></a>
+    <a href="#about"><img src="ri_122.jpeg"><p>PAWAN PURI</p></a>
+    <a href="#about"><img src="ri_123.jpeg"><p>PREM NAGAR</p></a>
+    <a href="#about"><img src="ri_124.jpeg"><p>PUNJABI BAAG-1</p></a>
+    <a href="#about"><img src="ri_125.jpeg"><p>PUNJABI BAAG SCHEME 3</p></a>
+    <a href="#about"><img src="ri_126.jpeg"><p>PUNJABI BAAG 2ND</p></a>
+    <a href="#about"><img src="ri_127.jpeg"><p>PUNJABI CITY</p></a>
+    <a href="#about"><img src="ri_128.jpeg"><p>RAJA BAAG</p></a>
+    <a href="#about"><img src="ri_129.jpeg"><p>RAJYA KARAMCHAARI COLONY</p></a>
+    <a href="#about"><img src="ri_130.jpeg"><p>RAMESH COLONY</p></a>
+    <a href="#about"><img src="ri_131.jpeg"><p>RIDHI GANESH CITY</p></a>
+    <a href="#about"><img src="ri_132.jpeg"><p>RIDHI SIDHI ENCLAVE</p></a>
+    <a href="#about"><img src="ri_133.jpeg"><p>RIDHI SIDHI-2</p></a>
+    <a href="#about"><img src="ri_134.jpeg"><p>RIDHI VINAYAK</p></a>
+    <a href="#about"><img src="ri_135.jpeg"><p>ROYAL CITY</p></a>
+    <a href="#about"><img src="ri_136.jpeg"><p>S TIRTH SAINI KI DHANI</p></a>
+    <a href="#about"><img src="ri_137.jpeg"><p>SADBHAVNA NAGAR</p></a>
+    <a href="#about"><img src="ri_138.jpeg"><p>SAINI ENCLAVE</p></a>
+    <a href="#about"><img src="ri_139.jpeg"><p>SANJAY GANDHI COLONY</p></a>
+    <a href="#about"><img src="ri_140.jpeg"><p>SARASWATI NAGAR</p></a>
+    <a href="#about"><img src="ri_141.jpeg"><p>SATYA NAGAR-2</p></a>
+    <a href="#about"><img src="ri_142.jpeg"><p>SATYAM NAGAR</p></a>
+    <a href="#about"><img src="ri_143.jpeg"><p>SECTOR 17 MARKET</p></a>
+    <a href="#about"><img src="ri_144.jpeg"><p>SEEP VIHAR (RAMDEV VIHAR-2ND)</p></a>
+    <a href="#about"><img src="ri_145.jpeg"><p>SHALIMAR BAGH</p></a>
+    <a href="#about"><img src="ri_146.jpeg"><p>SHANKAR COLONY 3</p></a>
+    <a href="#about"><img src="ri_147.jpeg"><p>SHANTI KUNJ</p></a>
+    <a href="#about"><img src="ri_148.jpeg"><p>SHANTI NAGAR PHASE 1</p></a>
+    <a href="#about"><img src="ri_149.jpeg"><p>SHARP PLAZA</p></a>
+    <a href="#about"><img src="ri_150.jpeg"><p>SHASTRI NAGAR</p></a>
+    <a href="#about"><img src="ri_151.jpeg"><p>SHIVAJI NAGAR 3</p></a>
+    <a href="#about"><img src="ri_152.jpeg"><p>SHIV GANESH MARKET</p></a>
+    <a href="#about"><img src="ri_153.jpeg"><p>SHIVAJI COLONY</p></a>
+    <a href="#about"><img src="ri_154.jpeg"><p>SHIVAJI NAGAR 2ND</p></a>
+    <a href="#about"><img src="ri_155.jpeg"><p>SHIVAJI NAGAR 3</p></a>
+    <a href="#about"><img src="ri_156.jpeg"><p>SHIVAJI NAGAR 1</p></a>
+    <a href="#about"><img src="ri_157.jpeg"><p>SHIVALIK ENCLAVE 2ND</p></a>
+    <a href="#about"><img src="ri_158.jpeg"><p>SHIVALIK ENCLAVE 1</p></a>
+    <a href="#about"><img src="ri_159.jpeg"><p>SHIVAM CITY</p></a>
+    <a href="#about"><img src="ri_160.jpeg"><p>SHIVAM ENCLAVE</p></a>
+    <a href="#about"><img src="ri_161.jpeg"><p>SHRI BALA JI LOHA,PLYWOOD & HARDWARE MARKET</p></a>
+    <a href="#about"><img src="ri_162.jpeg"><p>SHRI GANESH RIDHI SIDHI ENCLAVE</p></a>
+    <a href="#about"><img src="ri_163.jpeg"><p>SHREE GANGA ENCLAVE</p></a>
+    <a href="#about"><img src="ri_164.jpeg"><p>SRI GURU NAGAR</p></a>
+    <a href="#about"><img src="ri_165.jpeg"><p>SHRI MAHADEV ENCLAVE</p></a>
+    <a href="#about"><img src="ri_166.jpeg"><p>SHRI RAM COLONY</p></a>
+    <a href="#about"><img src="ri_167.jpeg"><p>SIDHARTH COLONY</p></a>
+    <a href="#about"><img src="ri_168.jpeg"><p>SIDHI VINAYAK ENCLAVE</p></a>
+    <a href="#about"><img src="ri_169.jpeg"><p>SIHAG COLONY</p></a>
+    <a href="#about"><img src="ri_170.jpeg"><p>SILVER CITY</p></a>
+    <a href="#about"><img src="ri_171.jpeg"><p>SINDHI COLONY 2</p></a>
+    <a href="#about"><img src="ri_172.jpeg"><p>SINDHI COLONY</p></a>
+    <a href="#about"><img src="ri_173.jpeg"><p>SQ NO 48</p></a>
+    <a href="#about"><img src="ri_174.jpeg"><p>SRI RAM COLONY</p></a>
+    <a href="#about"><img src="ri_175.jpeg"><p>SRI RAM NAGAR</p></a>
+    <a href="#about"><img src="ri_176.jpeg"><p>SUKH SAGAR COLONY</p></a>
+    <a href="#about"><img src="ri_177.jpeg"><p>SUKH SAGAR COLONY</p></a>
+    <a href="#about"><img src="ri_178.jpeg"><p>SUN CITY</p></a>
+    <a href="#about"><img src="ri_179.jpeg"><p>SUPER MARKET</p></a>
+    <a href="#about"><img src="ri_180.jpeg"><p>SURYA NAGAR</p></a>
+    <a href="#about"><img src="ri_181.jpeg"><p>SWAMI COLONY</p></a>
+    <a href="#about"><img src="ri_182.jpeg"><p>SWAMI VIVEKANAND COLONY</p></a>
+    <a href="#about"><img src="ri_183.jpeg"><p>TRANSPORT NAGAR</p></a>
+    <a href="#about"><img src="ri_184.jpeg"><p>TIRUPATI NAGAR</p></a>
+    <a href="#about"><img src="ri_185.jpeg"><p>VK CITY</p></a>
+    <a href="#about"><img src="ri_186.jpeg"><p>VAISHALI BAAG</p></a>
+    <a href="#about"><img src="ri_187.jpeg"><p>VAISHALI NAGAR</p></a>
+    <a href="#about"><img src="ri_188.jpeg"><p>VAISHALI NAGAR PART 1</p></a>
+    <a href="#about"><img src="ri_189.jpeg"><p>VARINDAVAN VIHAR</p></a>
+    <a href="#about"><img src="ri_190.jpeg"><p>VASUDEV ENCLAVE</p></a>
+    <a href="#about"><img src="ri_191.jpeg"><p>VIDHYA DEEP VIHAR</p></a>
+    <a href="#about"><img src="ri_192.jpeg"><p>VIDHYA VIHAR</p></a>
+    <a href="#about"><img src="ri_193.jpeg"><p>VIDYUT COLONY</p></a>
+    <a href="#about"><img src="ri_194.jpeg"><p>VIKAS PURI</p></a>
+    <a href="#about"><img src="ri_195.jpeg"><p>VINAYAK COLONY</p></a>
+    <a href="#about"><img src="ri_196.jpeg"><p>VINOBA BASTI</p></a>
+    <a href="#about"><img src="ri_197.jpeg"><p>VISHAWWKARMA COLONY</p></a>
+    <a href="#about"><img src="ri_198.jpeg"><p>VISHAVAVKARMA MOTOR MARKET</p></a>
+    <a href="#about"><img src="ri_199.jpeg"><p>VISHWANATH COLONY</p></a>
+    <a href="#about"><img src="ri_200.jpeg"><p></p></a>
+  </B>
+  </center>
+   
+  </div>
+  </div>
+
+</div>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</body>
+</html>
+
+
